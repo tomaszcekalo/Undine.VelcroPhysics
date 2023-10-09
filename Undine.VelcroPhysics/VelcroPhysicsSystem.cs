@@ -5,9 +5,6 @@ namespace Undine.VelcroPhysics
     public class VelcroPhysicsSystem : UnifiedSystem<VelcroWorldComponent>
     {
         public float ElapsedGameTimeTotalSeconds { get; set; }
-        public VelcroPhysicsSystem()
-        {
-        }
 
         public override void ProcessSingleEntity(int entityId, ref VelcroWorldComponent t)
         {
